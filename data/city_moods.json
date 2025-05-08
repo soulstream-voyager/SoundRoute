@@ -1,0 +1,6 @@
+{
+  "paris_romantic": ["La Vie en Rose - Édith Piaf", "Ne Me Quitte Pas - Jacques Brel"],
+  "berlin_party": ["Midnight City - M83", "On Hold - The xx"],
+  "tokyo_chill": ["Night Owl - Galimatias", "Cold Little Heart - Michael Kiwanuka"],
+  "default": ["Electric Feel - MGMT", "Dreams - Fleetwood Mac", "Lose Yourself to Dance - Daft Punk"]
+}
