@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SoundRoute</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <h1>🎶 SoundRoute</h1>
+  <form method="POST">
+    <label>City: <input type="text" name="city"></label><br>
+    <label>Mood: <input type="text" name="mood"></label><br>
+    <button type="submit">Generate Playlist</button>
+  </form>
+  {% if playlist %}
+    <h2>Recommended Playlist:</h2>
+    <ul>
+      {% for track in playlist %}
+        <li>{{ track }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</body>
+</html>
