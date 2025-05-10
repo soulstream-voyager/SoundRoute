@@ -2,15 +2,21 @@
 
 **Travel-based playlist generator that matches your destination and mood with music.**
 
+---
+
 ## 📌 Features
 - Choose a destination city and a mood
 - Receive a tailored playlist recommendation
 - Lightweight Flask web app with static frontend
 
+---
+
 ## 🚀 How It Works
 - Input city and mood (e.g., "Paris" and "romantic")
 - Backend reads `city_moods.json` and returns matching songs
 - If no exact match, a random default playlist is shown
+
+---
 
 ## 📁 Project Structure
 ```
@@ -27,11 +33,15 @@ soundroute/
 └── README.md            # Documentation
 ```
 
+---
+
 ## 🛠 Technologies
 - Python
 - Flask
 - HTML/CSS
 - JSON for simple data storage
+
+---
 
 ## 🧠 Example Cities & Moods
 | City   | Mood     | Sample Tracks                                  |
@@ -40,17 +50,22 @@ soundroute/
 | Berlin | Party    | Midnight City, On Hold                         |
 | Tokyo  | Chill    | Night Owl, Cold Little Heart                   |
 
+---
+
 ## 📦 Installation
-```bash
+
+```
 git clone https://github.com/soulstream-voyager/soundroute.git
 cd soundroute
 pip install -r requirements.txt
 python app.py
 ```
 
+---
+
 ## 🗣️ Contact
 Made with 🎶 by [@soulstream-voyager](https://github.com/soulstream-voyager)  
-📫 sofiiahusyak@gmail.com | @sofiia_hus on Telegram
+📫 sofiiahusyak@gmail.com | [@sofiia_hus](https://t.me/sofiia_hus) on Telegram
 
 ---
 
